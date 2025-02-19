@@ -1,0 +1,30 @@
+{
+  "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:851725581851:loadbalancer/app/GrE-Junod-LoadBalancer/1352f144604e66d0",
+  "DNSName": "GrE-Junod-LoadBalancer-284381652.us-east-1.elb.amazonaws.com",
+  "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+  "CreatedTime": "2024-03-12T15:49:47.810000+00:00",
+  "LoadBalancerName": "GrE-Junod-LoadBalancer",
+  "Scheme": "internet-facing",
+  "VpcId": "vpc-049e2f8e56e0bafef",
+  "State": {
+    "Code": "active"
+  },
+  "Type": "application",
+  "AvailabilityZones": [
+    {
+      "ZoneName": "us-east-1c",
+      "SubnetId": "subnet-07f74df2f9ca79cef",
+      "LoadBalancerAddresses": []
+    },
+    {
+      "ZoneName": "us-east-1d",
+      "SubnetId": "subnet-0a2ab628966261f50",
+      "LoadBalancerAddresses": []
+    }
+  ],
+  "SecurityGroups": [
+    "sg-04328f385055d83c5",
+    "sg-0d6118cda1b7804f8"
+  ],
+  "IpAddressType": "ipv4"
+}

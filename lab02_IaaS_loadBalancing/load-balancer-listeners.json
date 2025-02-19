@@ -1,0 +1,25 @@
+[
+  {
+    "ListenerArn": "arn:aws:elasticloadbalancing:us-east-1:851725581851:listener/app/GrE-Junod-LoadBalancer/1352f144604e66d0/12e0cb29f78df5ec",
+    "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:851725581851:loadbalancer/app/GrE-Junod-LoadBalancer/1352f144604e66d0",
+    "Port": 80,
+    "Protocol": "HTTP",
+    "DefaultActions": [
+      {
+        "Type": "forward",
+        "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:851725581851:targetgroup/GrE-Junod-TargetGroup/77705950e6ab6808",
+        "ForwardConfig": {
+          "TargetGroups": [
+            {
+              "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:851725581851:targetgroup/GrE-Junod-TargetGroup/77705950e6ab6808",
+              "Weight": 1
+            }
+          ],
+          "TargetGroupStickinessConfig": {
+            "Enabled": false
+          }
+        }
+      }
+    ]
+  }
+]
